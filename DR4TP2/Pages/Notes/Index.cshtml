@@ -1,0 +1,37 @@
+@page
+@model DR4TP2.Pages.Notes.IndexModel
+
+@{
+    ViewData["Title"] = "Lista de Mensagens";
+}
+
+@if (TempData["Mensagem"] != null)
+{
+    <div class="alert alert-success">
+        @TempData["Mensagem"]
+    </div>
+}
+
+@if (Model.notes != null)
+{
+    <table class="table table-striped">
+        <thead>
+        <tr>
+            <th>Mensagem</th>
+            <th>Data da mensagem</th>
+        </tr>
+        </thead>
+        <tbody>
+        @foreach (var note in Model.notes)
+        {
+            <tr>
+                <td>@note.Mensagem</td>
+                <td>@note.DateTime</td>
+            </tr>
+        }
+        </tbody>
+    </table>
+}
+<p>
+    <a asp-page="SaveNotes" class="btn btn-primary">Escrever nova mensagem</a>
+</p>

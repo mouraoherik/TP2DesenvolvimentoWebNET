@@ -1,0 +1,63 @@
+@page
+@model DR4TP2.Pages.CountryManager.CreateCountryEx7
+
+@{
+    ViewData["Title"] = "Formulario de Pais";
+}
+
+<h1>Formulario de Países</h1>
+
+<form method="post" class="btn-primary">
+    
+    @for (int i = 0; i < 5; i++)
+    {
+        <div>
+            <label asp-for="InputList[i].CountryName">Nome do Pais</label>
+            <input asp-for="InputList[i].CountryName" class="form-control"/>
+            <span asp-validation-for="InputList[i].CountryName" class="text-danger"></span>
+        </div>
+        <div>
+            <label asp-for="InputList[i].CountryCode">ISO do Pais</label>
+            <input asp-for="InputList[i].CountryCode" class="form-control"/>
+            <span asp-validation-for="InputList[i].CountryCode" class="text-danger"></span>
+        </div>
+    }
+    <button type="submit">Enviar</button> 
+</form>
+
+@if (Model.CountriesCreated != null && ModelState.IsValid)
+{
+    <table>
+        <thead>
+        <tr>
+            <th scope="col">Nome do Pais</th>
+            <th scope="col">| ISO</th>
+        </tr>
+        </thead>
+    </table>
+    
+    foreach (var v in Model.CountriesCreated)
+    {
+        <table>
+            <tr>
+                <td>@v.CountryName</td>
+                <td>@v.CountryCode</td>
+            </tr>
+        </table>
+    }
+}
+
+@section Scripts
+{
+    <partial name="Shared/_ValidationScriptsPartial"/>
+}
+
+@* 7 Trabalhando com Vários Registros Simultaneamente 
+@* 
+@* Implemente um formulário para cadastrar múltiplos países em uma única submissão. 
+@* 
+@* Tarefas: 
+@* 
+@* Crie uma lista List<InputModel> no PageModel com [BindProperty]. 
+@* Gere dinamicamente 5 linhas no formulário (use for loop) para preenchimento. 
+@* Exiba os países submetidos após a submissão. *@

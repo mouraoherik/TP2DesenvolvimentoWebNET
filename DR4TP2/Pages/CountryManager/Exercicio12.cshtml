@@ -1,0 +1,39 @@
+@page
+@model DR4TP2.Pages.CountryManager.Exercicio12
+
+@{
+    ViewData["Title"] = "Exercicio 12";
+}
+
+@{
+    ViewData["Title"] = "Formulario de Pais";
+}
+
+<h1>Formulario de Países</h1>
+
+
+<form method="post" class="btn-primary">
+    <div>
+        <label asp-for="CountryInput.CountryName">Nome do Pais</label>
+        <input asp-for="CountryInput.CountryName" class="form-control"/>
+        <span asp-validation-for="CountryInput.CountryName" class="text-danger"></span>
+    </div>
+    <div>
+        <label asp-for="CountryInput.CountryCode">ISO do Pais</label>
+        <input asp-for="CountryInput.CountryCode" class="form-control"/>
+        <span asp-validation-for="CountryInput.CountryCode" class="text-danger"></span>
+    </div>
+    <button type="submit">Enviar</button>
+</form>
+
+@if (Model.CountryCreated != null && ModelState.IsValid)
+{
+    <hr/>
+    <p>Voce enviou: @Model.CountryCreated.CountryName (ISO : @Model.CountryCreated.CountryCode)</p>
+}
+
+@section Scripts
+{
+    <partial name="Shared/_ValidationScriptsPartial"/>
+}
+

@@ -1,0 +1,92 @@
+is_global = true
+build_property.TargetFramework = net10.0
+build_property.TargetFrameworkIdentifier = .NETCoreApp
+build_property.TargetFrameworkVersion = v10.0
+build_property.TargetPlatformMinVersion = 
+build_property.UsingMicrosoftNETSdkWeb = true
+build_property.ProjectTypeGuids = 
+build_property.InvariantGlobalization = 
+build_property.PlatformNeutralAssembly = 
+build_property.EnforceExtendedAnalyzerRules = 
+build_property.EntryPointFilePath = 
+build_property._SupportedPlatformList = Linux,macOS,Windows
+build_property.RootNamespace = DR4TP2
+build_property.RootNamespace = DR4TP2
+build_property.ProjectDir = /home/herik/RiderProjects/DR4TP2/DR4TP2/
+build_property.EnableComHosting = 
+build_property.EnableGeneratedComInterfaceComImportInterop = 
+build_property.RazorLangVersion = 10.0
+build_property.SupportLocalizedComponentNames = 
+build_property.GenerateRazorMetadataSourceChecksumAttributes = 
+build_property.MSBuildProjectDirectory = /home/herik/RiderProjects/DR4TP2/DR4TP2
+build_property._RazorSourceGeneratorDebug = 
+build_property.EffectiveAnalysisLevelStyle = 10.0
+build_property.EnableCodeStyleSeverity = 
+
+[/home/herik/RiderProjects/DR4TP2/DR4TP2/Pages/CityManager/CityDetails.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXMvQ2l0eU1hbmFnZXIvQ2l0eURldGFpbHMuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[/home/herik/RiderProjects/DR4TP2/DR4TP2/Pages/CityManager/CreateCityEx1.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXMvQ2l0eU1hbmFnZXIvQ3JlYXRlQ2l0eUV4MS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[/home/herik/RiderProjects/DR4TP2/DR4TP2/Pages/CityManager/CreateCityEx2.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXMvQ2l0eU1hbmFnZXIvQ3JlYXRlQ2l0eUV4Mi5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[/home/herik/RiderProjects/DR4TP2/DR4TP2/Pages/CityManager/CreateCityEx3.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXMvQ2l0eU1hbmFnZXIvQ3JlYXRlQ2l0eUV4My5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[/home/herik/RiderProjects/DR4TP2/DR4TP2/Pages/CityManager/Exercicio9.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXMvQ2l0eU1hbmFnZXIvRXhlcmNpY2lvOS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[/home/herik/RiderProjects/DR4TP2/DR4TP2/Pages/CountryManager/CreateCountry.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXMvQ291bnRyeU1hbmFnZXIvQ3JlYXRlQ291bnRyeS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[/home/herik/RiderProjects/DR4TP2/DR4TP2/Pages/CountryManager/CreateCountryEx7.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXMvQ291bnRyeU1hbmFnZXIvQ3JlYXRlQ291bnRyeUV4Ny5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[/home/herik/RiderProjects/DR4TP2/DR4TP2/Pages/CountryManager/Exercicio12.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXMvQ291bnRyeU1hbmFnZXIvRXhlcmNpY2lvMTIuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[/home/herik/RiderProjects/DR4TP2/DR4TP2/Pages/Error.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXMvRXJyb3IuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[/home/herik/RiderProjects/DR4TP2/DR4TP2/Pages/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXMvSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[/home/herik/RiderProjects/DR4TP2/DR4TP2/Pages/Notes/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXMvTm90ZXMvSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[/home/herik/RiderProjects/DR4TP2/DR4TP2/Pages/Notes/SaveNotes.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXMvTm90ZXMvU2F2ZU5vdGVzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[/home/herik/RiderProjects/DR4TP2/DR4TP2/Pages/Privacy.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXMvUHJpdmFjeS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[/home/herik/RiderProjects/DR4TP2/DR4TP2/Pages/Shared/_ValidationScriptsPartial.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXMvU2hhcmVkL19WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[/home/herik/RiderProjects/DR4TP2/DR4TP2/Pages/_ViewImports.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXMvX1ZpZXdJbXBvcnRzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[/home/herik/RiderProjects/DR4TP2/DR4TP2/Pages/_ViewStart.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXMvX1ZpZXdTdGFydC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[/home/herik/RiderProjects/DR4TP2/DR4TP2/Pages/Shared/_Layout.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXMvU2hhcmVkL19MYXlvdXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = b-bh9x34kf7e

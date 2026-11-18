@@ -1,0 +1,15 @@
+@page
+@model DR4TP2.Pages.CityManager.Exercicio9
+
+@{
+    ViewData["Title"] = "Formulario";
+}
+    @foreach (var v in Model.Cities)
+    {
+        <div class="card mb-2">
+            <div class="card-body">
+                <h5>@v.CityName</h5>
+                <p><a asp-page="./CityDetails" asp-route-cityName="@v.CityName">Detalhes</a></p>
+            </div>
+        </div>
+    }

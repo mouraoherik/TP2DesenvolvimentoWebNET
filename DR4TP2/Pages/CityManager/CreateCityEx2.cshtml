@@ -1,0 +1,24 @@
+@page
+@model DR4TP2.Pages.CreateCityEx2
+
+@{
+    @ViewData["Title"]
+}
+@*              Exercicio 2 
+@*  Remova a propriedade pública vinculada. 
+@*  Adicione um parâmetro string cityName no método OnPost. 
+@*  Exiba a mensagem com o nome da cidade recebida via handler. *@
+
+<form method="post">
+    <div>
+        <label for="cityName">Nome da Cidade</label>
+        <input type="text" name="cityName" id="cityName"/>
+    </div>
+    <button type="submit">Enviar</button>
+</form>
+
+@if (!string.IsNullOrEmpty(Model.Mensagem))
+{
+    <p>@Model.Mensagem</p>
+}
+

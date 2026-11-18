@@ -1,0 +1,41 @@
+@page
+@model DR4TP2.Pages.CityManager.CreateCityEx3Model
+
+@{
+    @ViewData["Title"]
+}
+
+@*             Exercicio 3 *@
+@* Validação do Lado do Servidor com Data Annotations 
+@* 
+@* Valide os dados de entrada para garantir que o nome da cidade tenha no mínimo 3 caracteres. 
+@* 
+@* Tarefas: 
+@* 
+@* Crie uma classe InputModel aninhada ao PageModel. 
+@* Adicione a propriedade CityName com o atributo [Required] e [MinLength(3)]. 
+@* Implemente a lógica de ModelState.IsValid no OnPost. 
+@* Mostre as mensagens de erro quando a validação falhar. *@
+
+<h4>Adicionar Cidade</h4>
+
+<form method="post">
+    <div>
+        <label asp-for="InputCity.CityName">Nome da Cidade</label>
+        <input asp-for="InputCity.CityName" class="form-control" />
+        <span asp-validation-for="InputCity.CityName" class="text-danger"></span>
+    </div>
+    <button type="submit">Enviar</button>
+</form>
+
+@if (Model.CityCreated != null && ModelState.IsValid)
+{
+    <hr/>
+    <p>Voce enviou: @Model.CityCreated.CityName</p>
+}
+
+@section Scripts
+{
+    <partial name="Shared/_ValidationScriptsPartial"/>
+}
+

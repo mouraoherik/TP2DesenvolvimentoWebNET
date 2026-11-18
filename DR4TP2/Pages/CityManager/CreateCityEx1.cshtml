@@ -1,0 +1,27 @@
+@page
+@model CreateCityEx1
+
+@{
+    @ViewData["Title"]
+}
+
+@* Exercicio 1 
+@* 
+@* Crie o arquivo Razor Page em uma pasta Pages/CityManager. *@
+@* Implemente um formulário que envie o nome da cidade via método POST. *@
+@* Exiba o nome submetido no navegador após o envio. *@
+
+<h4>Adicionar Cidade</h4>
+
+<form method="post">
+    <div>
+        <label asp-for="Input.Nome">Nome da Cidade</label>
+        <input type="text" name="Input.Nome" id="Input.Nome"/>
+    </div>
+    <button type="submit">Enviar</button>
+</form>
+
+
+    <p>@Model.Mensagem</p>
+
+

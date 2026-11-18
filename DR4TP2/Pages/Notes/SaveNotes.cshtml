@@ -1,0 +1,13 @@
+@page
+@model DR4TP2.Pages.Notes.SaveNotesModel
+
+@{
+    ViewData["Title"] = "Escrever Mensagem";
+}
+<form method="post">
+    <label asp-for="NoteInput.Mensagem" class="control-label"></label>
+    <input asp-for="NoteInput.Mensagem" class="form-control"/>
+    <span asp-validation-for="NoteInput.Mensagem" class="text-danger"></span>
+    <button type="submit" class="btn btn-primary">Salvar</button>
+    <a asp-page="/Notes/Index" class="btn btn-secondary">Voltar</a>
+</form>

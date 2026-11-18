@@ -1,0 +1,11 @@
+@page "{cityName}"
+@model DR4TP2.Pages.CityManager.CityDetails
+
+@{
+    @ViewData["Title"]
+}
+
+@if (!string.IsNullOrEmpty(Model.Mensagem))
+{
+    <h1>@Model.Mensagem</h1>
+}
